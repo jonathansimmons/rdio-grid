@@ -34,7 +34,7 @@ function recalculate(target, min_width, margin) {
 
   $(target).width(final_target_width).removeClass("adjusted"); // set width and remove adjustment class
   $(target+":nth-child("+(col_rounded)+"n-"+(col_rounded-1)+")").css({"margin-left": 0}).addClass("adjusted")
-  $(target).not(".adjusted").css({"margin-left": (margin+2)+"px"});
+  $(target).not(".adjusted").css({"margin-left": (margin+2)+"px", "margin-bottom": margin});
 
   //Displaying values
 	$("#wrapper").html(wrap_width + "px");
