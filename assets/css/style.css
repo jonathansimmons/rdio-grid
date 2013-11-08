@@ -44,9 +44,8 @@ ul {
   display: block;
   float: left;
   background: #efefef;
-  -webkit-transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
+  transition:all 0.5s ease;
+  -webkit-transition:all 0.5s ease;;
 }
 
   .grid .box {
