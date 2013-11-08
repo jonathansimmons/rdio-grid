@@ -1,4 +1,18 @@
-<!-- @include _header -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/style.css'>
+  <script src='assets/js/jquery-1.10.2.min.js'></script>
+  <script src='assets/js/app.js'></script>
+  <title>Rdio Grid</title>
+</head>
+
+<body>
+
+
 
   <section>
     <div class="stats">
@@ -9,21 +23,31 @@
         </p>
 
         <p>
-            <span id="wrw">#</span>
-            Width of grid <br />container
+            <span id="wrapper">#</span>
+            Container Width
         </p>
         <p>
-            <span id="col">#</span>
-            Number of possible <br />columns
+            <span id="columns">#</span>
+            Possible Columns
         </p>
         <p>
-            <span id="colrounded">#</span>
-            Number of possible  <br />columns (floored)
+            <span id="col_margin">#</span>
+            Column Margin
         </p>
         <p>
-            <span id="grid">#</span>
-            Width of each <br />grid (floored)
+            <span id="final_wrapper">#</span>
+            Container Width <br>(after margin)
         </p>
+        <p>
+            <span id="target">#</span>
+            Target Width (no margin)
+        </p>
+        <p>
+            <span id="final_target">#</span>
+            Target Width (with margin)
+        </p>
+
+
 
     </div>
     <div class="wrapper">
@@ -57,4 +81,6 @@
 
   </section>
 
-<!-- @include _footer -->
+</body>
+
+</html>
